@@ -6,7 +6,7 @@
 .container {
   color: white;
   background: linear-gradient(145deg, #2193b0, #6dd5ed);
-  min-width: 400px;
+  min-width: 800px;
   width: 90%;
   margin: 50px auto;
   border-radius: 5px;
@@ -103,51 +103,50 @@
   font-weight: bold;
 }
 .container {
-    width: 600px; /* từ 400px */
-    font-size: 16px; /* từ 14px */
-    padding: 20px;
+  width: 600px; /* từ 400px */
+  font-size: 16px; /* từ 14px */
+  padding: 20px;
 }
 
 .temperature {
-    font-size: 100px; /* từ 80px */
+  font-size: 100px; /* từ 80px */
 }
 
 .weather-icon {
-    width: 90px;
-    height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 .city-name {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .weather-state {
-    font-size: 16px;
+  font-size: 16px;
 }
 .forecast-section {
-    padding: 20px;
-    border-top: 1px solid white;
+  padding: 20px;
+  border-top: 1px solid white;
 }
 
 .forecast-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .forecast-card {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 5px;
-    width: 100px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 5px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
 }
 
 .forecast-card img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
-
